@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Client", "Client\Client.vcxproj", "{59899930-F741-4BC2-85CB-D252EB793914}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Server", "Server\Server.vcxproj", "{F0AC9802-85BF-4BD8-80E3-A5A4BDFB9227}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{72884D42-B825-47B0-B3C2-7BA7DD55E0AE}"
+	ProjectSection(SolutionItems) = preProject
+		README.txt = README.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://edetoc.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Client\\Client.vcxproj
+		SccProjectName1 = Client
+		SccLocalPath1 = Client
+		SccProjectUniqueName2 = Server\\Server.vcxproj
+		SccProjectName2 = Server
+		SccLocalPath2 = Server
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{59899930-F741-4BC2-85CB-D252EB793914}.Debug|Win32.ActiveCfg = Debug|Win32
+		{59899930-F741-4BC2-85CB-D252EB793914}.Debug|Win32.Build.0 = Debug|Win32
+		{59899930-F741-4BC2-85CB-D252EB793914}.Release|Win32.ActiveCfg = Release|Win32
+		{59899930-F741-4BC2-85CB-D252EB793914}.Release|Win32.Build.0 = Release|Win32
+		{F0AC9802-85BF-4BD8-80E3-A5A4BDFB9227}.Debug|Win32.ActiveCfg = Debug|Win32
+		{F0AC9802-85BF-4BD8-80E3-A5A4BDFB9227}.Debug|Win32.Build.0 = Debug|Win32
+		{F0AC9802-85BF-4BD8-80E3-A5A4BDFB9227}.Release|Win32.ActiveCfg = Release|Win32
+		{F0AC9802-85BF-4BD8-80E3-A5A4BDFB9227}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

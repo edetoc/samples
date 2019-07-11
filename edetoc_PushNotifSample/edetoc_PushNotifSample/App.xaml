@@ -1,0 +1,8 @@
+﻿<Application
+    x:Class="edetoc_PushNotifSample.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:edetoc_PushNotifSample"
+    RequestedTheme="Light">
+
+</Application>

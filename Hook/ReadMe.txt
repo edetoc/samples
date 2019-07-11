@@ -1,0 +1,1 @@
+inspired from http://www.codeguru.com/cpp/w-d/dislog/titlebar/article.php/c1987/Draw-on-Title-Bar.htm

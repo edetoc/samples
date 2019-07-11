@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSCreateLowIntegrityProcess", "CSCreateLowIntegrityProcess\CSCreateLowIntegrityProcess.csproj", "{FC9CE21F-DA14-4B82-8356-8EF936C56DCF}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 2
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://edetoc.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = CSCreateLowIntegrityProcess\\CSCreateLowIntegrityProcess.csproj
+		SccProjectName1 = CSCreateLowIntegrityProcess
+		SccLocalPath1 = CSCreateLowIntegrityProcess
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FC9CE21F-DA14-4B82-8356-8EF936C56DCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC9CE21F-DA14-4B82-8356-8EF936C56DCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC9CE21F-DA14-4B82-8356-8EF936C56DCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC9CE21F-DA14-4B82-8356-8EF936C56DCF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

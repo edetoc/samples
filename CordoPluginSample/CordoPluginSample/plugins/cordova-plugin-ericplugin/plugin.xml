@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-ericplugin"
+    version="0.2.0">
+  <name>Eric Plugin</name>
+  <description>This is Eric'c Plugin</description>
+
+  <!-- windows -->
+  <platform name="windows">   
+    <framework src="src/windows/MyRuntimeComponent.winmd" custom="true"/>
+  </platform>
+
+  <!-- other platforms -->
+</plugin>

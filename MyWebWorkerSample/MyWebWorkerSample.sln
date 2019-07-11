@@ -1,0 +1,125 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{262852C6-CD72-467D-83FE-5EEB1973A190}") = "MyWebWorkerSample", "MyWebWorkerSample\MyWebWorkerSample.jsproj", "{0F14A7D6-6A37-4E1D-9487-AE89610A2233}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A49DB608-BD59-4860-B776-781C4FB47021} = {A49DB608-BD59-4860-B776-781C4FB47021}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UriToStreamResolverRuntimeComponent", "UriToStreamResolverRuntimeComponent\UriToStreamResolverRuntimeComponent.csproj", "{A49DB608-BD59-4860-B776-781C4FB47021}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Android = Debug|Android
+		Debug|Any CPU = Debug|Any CPU
+		Debug|ARM = Debug|ARM
+		Debug|iOS = Debug|iOS
+		Debug|Windows-ARM = Debug|Windows-ARM
+		Debug|Windows-x64 = Debug|Windows-x64
+		Debug|Windows-x86 = Debug|Windows-x86
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|Android = Release|Android
+		Release|Any CPU = Release|Any CPU
+		Release|ARM = Release|ARM
+		Release|iOS = Release|iOS
+		Release|Windows-ARM = Release|Windows-ARM
+		Release|Windows-x64 = Release|Windows-x64
+		Release|Windows-x86 = Release|Windows-x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Android.ActiveCfg = Debug|Android
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Android.Build.0 = Debug|Android
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Android.Deploy.0 = Debug|Android
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Any CPU.ActiveCfg = Debug|Android
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|ARM.ActiveCfg = Debug|Windows-ARM
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|iOS.ActiveCfg = Debug|iOS
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|iOS.Build.0 = Debug|iOS
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|iOS.Deploy.0 = Debug|iOS
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-ARM.ActiveCfg = Debug|Windows-ARM
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-ARM.Build.0 = Debug|Windows-ARM
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-ARM.Deploy.0 = Debug|Windows-ARM
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-x64.ActiveCfg = Debug|Windows-x64
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-x64.Build.0 = Debug|Windows-x64
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-x64.Deploy.0 = Debug|Windows-x64
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-x86.ActiveCfg = Debug|Windows-x86
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-x86.Build.0 = Debug|Windows-x86
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|Windows-x86.Deploy.0 = Debug|Windows-x86
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|x64.ActiveCfg = Debug|Windows-x64
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Debug|x86.ActiveCfg = Debug|Windows-x86
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Android.ActiveCfg = Release|Android
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Android.Build.0 = Release|Android
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Android.Deploy.0 = Release|Android
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Any CPU.ActiveCfg = Release|Android
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|ARM.ActiveCfg = Release|Windows-ARM
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|iOS.ActiveCfg = Release|iOS
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|iOS.Build.0 = Release|iOS
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|iOS.Deploy.0 = Release|iOS
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-ARM.ActiveCfg = Release|Windows-ARM
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-ARM.Build.0 = Release|Windows-ARM
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-ARM.Deploy.0 = Release|Windows-ARM
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-x64.ActiveCfg = Release|Windows-x64
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-x64.Build.0 = Release|Windows-x64
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-x64.Deploy.0 = Release|Windows-x64
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-x86.ActiveCfg = Release|Windows-x86
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-x86.Build.0 = Release|Windows-x86
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|Windows-x86.Deploy.0 = Release|Windows-x86
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|x64.ActiveCfg = Release|Windows-x64
+		{0F14A7D6-6A37-4E1D-9487-AE89610A2233}.Release|x86.ActiveCfg = Release|Windows-x86
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Android.ActiveCfg = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Android.Build.0 = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|ARM.ActiveCfg = Debug|ARM
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|ARM.Build.0 = Debug|ARM
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|iOS.ActiveCfg = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|iOS.Build.0 = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Windows-ARM.ActiveCfg = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Windows-ARM.Build.0 = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Windows-x64.ActiveCfg = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Windows-x64.Build.0 = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Windows-x86.ActiveCfg = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|Windows-x86.Build.0 = Debug|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|x64.ActiveCfg = Debug|x64
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|x64.Build.0 = Debug|x64
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|x86.ActiveCfg = Debug|x86
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Debug|x86.Build.0 = Debug|x86
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Android.ActiveCfg = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Android.Build.0 = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|ARM.ActiveCfg = Release|ARM
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|ARM.Build.0 = Release|ARM
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|iOS.ActiveCfg = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|iOS.Build.0 = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Windows-ARM.ActiveCfg = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Windows-ARM.Build.0 = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Windows-x64.ActiveCfg = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Windows-x64.Build.0 = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Windows-x86.ActiveCfg = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|Windows-x86.Build.0 = Release|Any CPU
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|x64.ActiveCfg = Release|x64
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|x64.Build.0 = Release|x64
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|x86.ActiveCfg = Release|x86
+		{A49DB608-BD59-4860-B776-781C4FB47021}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://edetoc.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = MyWebWorkerSample\\MyWebWorkerSample.jsproj
+		SccProjectName1 = MyWebWorkerSample
+		SccLocalPath1 = MyWebWorkerSample
+		SccProjectUniqueName2 = UriToStreamResolverRuntimeComponent\\UriToStreamResolverRuntimeComponent.csproj
+		SccProjectName2 = UriToStreamResolverRuntimeComponent
+		SccLocalPath2 = UriToStreamResolverRuntimeComponent
+	EndGlobalSection
+EndGlobal

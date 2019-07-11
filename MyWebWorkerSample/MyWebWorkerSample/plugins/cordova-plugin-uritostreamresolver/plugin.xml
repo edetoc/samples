@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="cordova-plugin-uritostreamresolver"
+    version="1.0.0">
+  <name>Uri to stream resolver</name>
+  <description>This is the Uri to stream resolver Plugin</description>
+
+  <!-- windows -->
+  <platform name="windows">
+    <framework src="src/windows/UriToStreamResolverRuntimeComponent.winmd" custom="true"/>
+  </platform>
+
+</plugin>

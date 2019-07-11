@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "DLLSample", "DLLSample\DLLSample.vcxproj", "{DE4EBCCA-2E8E-4566-AD3F-C5B6852FB9AD}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "clientEXE", "clientEXE\clientEXE.vcxproj", "{FD29AE0F-B651-4567-BB6A-249DCBAC0A9A}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://edetoc.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = clientEXE\\clientEXE.vcxproj
+		SccProjectName1 = clientEXE
+		SccLocalPath1 = clientEXE
+		SccProjectUniqueName2 = DLLSample\\DLLSample.vcxproj
+		SccProjectName2 = DLLSample
+		SccLocalPath2 = DLLSample
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE4EBCCA-2E8E-4566-AD3F-C5B6852FB9AD}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DE4EBCCA-2E8E-4566-AD3F-C5B6852FB9AD}.Debug|Win32.Build.0 = Debug|Win32
+		{DE4EBCCA-2E8E-4566-AD3F-C5B6852FB9AD}.Release|Win32.ActiveCfg = Release|Win32
+		{DE4EBCCA-2E8E-4566-AD3F-C5B6852FB9AD}.Release|Win32.Build.0 = Release|Win32
+		{FD29AE0F-B651-4567-BB6A-249DCBAC0A9A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FD29AE0F-B651-4567-BB6A-249DCBAC0A9A}.Debug|Win32.Build.0 = Debug|Win32
+		{FD29AE0F-B651-4567-BB6A-249DCBAC0A9A}.Release|Win32.ActiveCfg = Release|Win32
+		{FD29AE0F-B651-4567-BB6A-249DCBAC0A9A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,17 @@
+﻿<Page
+    x:Class="UpdatePrimaryTile.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UpdatePrimaryTile"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <Button x:Name="btnSendLegacy" Content="Send notification (legacy)" HorizontalAlignment="Left" Margin="38,116,0,0" VerticalAlignment="Top" Height="103" Width="608" FontSize="24" Click="btnSendLegacy_Click"/>
+        <Button x:Name="btnClear" Content="Clear notification" HorizontalAlignment="Left" Margin="38,532,0,0" VerticalAlignment="Top" Height="75" Width="230" Click="btnClear_Click"/>
+        <Button x:Name="btnSendAdaptive" Content="Send notification (adaptive)" HorizontalAlignment="Left" Margin="38,246,0,0" VerticalAlignment="Top" Height="103" Width="608" FontSize="24" Click="btnSendAdaptive_Click"/>
+        <Button x:Name="btnSendAdaptiveWithCode" Content="Send notification (adaptative with code)" HorizontalAlignment="Left" Margin="38,378,0,0" VerticalAlignment="Top" Height="103" Width="608" FontSize="24" Click="btnSendAdaptiveWithCode_Click" />
+
+    </Grid>
+</Page>
