@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="AppServicesClientWithBGTask.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:AppServicesClientWithBGTask"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <StackPanel>
+            <Button x:Name="RegisterButton" Content="Register BG task" Click="RegisterButton_Click"  HorizontalAlignment="Left"   Margin="12,12,0,0"/>
+            <Button x:Name="UnregisterButton" Content="Unregister BG task"  Click="UnregisterButton_Click"  HorizontalAlignment="Left" Margin="12,12,0,0"/>
+            <TextBlock HorizontalAlignment="Left"  Text="Log:" TextWrapping="Wrap"  Margin="12,12,0,0"/>
+            <ListView x:Name="LogLv" HorizontalAlignment="Left" Height="300"  Width="auto" Margin="12,12,0,0" BorderThickness="1"/>
+            <Button x:Name="ResetLogButton" Content="Reset log" Click="ResetLogButton_Click" HorizontalAlignment="Left"   Margin="12,12,0,0"/>
+            
+
+        </StackPanel>
+        
+    </Grid>
+</Page>
