@@ -15,7 +15,7 @@ namespace UnitTestProject
     public class Scenario : NavLeakReproSession
     {
 
-        const int MAX_NAVIGATIONS = 250;
+        const int MAX_NAVIGATIONS = 500;
         const int WAIT_TIMEOUT_SECS = 90;
         const int POLLING_INTERVAL_SECS = 1;
 
