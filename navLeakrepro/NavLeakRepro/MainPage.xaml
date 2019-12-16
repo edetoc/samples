@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="NavLeakRepro.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:NavLeakRepro"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="180"/>
+            <ColumnDefinition Width="180"/>
+        </Grid.ColumnDefinitions>
+        
+        <Button x:Name="NavButton" Grid.Column="0" Content="Goto Page 2" VerticalAlignment="Center" Click="NavButton_Click" AutomationProperties.AutomationId="MainPageNavButton" />
+        <Button x:Name ="GCbutton" Grid.Column="1" Content="GC collect"  VerticalAlignment="Center" Click="GCbutton_Click" />
+    </Grid>
+</Page>
