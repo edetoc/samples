@@ -22,6 +22,8 @@ namespace UnitTestProject
         [TestMethod]
         public void RunNavigationTest()
         {
+            // note: inspired from https://github.com/Microsoft/WinAppDriver/issues/364#issuecomment-371291769
+
             var wait = new DefaultWait<WindowsDriver<WindowsElement>>(session)
             {
                 Timeout = TimeSpan.FromSeconds(WAIT_TIMEOUT_SECS),
