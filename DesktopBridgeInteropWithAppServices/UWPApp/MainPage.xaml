@@ -1,0 +1,47 @@
+﻿<Page
+    x:Class="UWPApp.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:UWPApp"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid Margin="12,12">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        
+        <!-- start and stop apps buttons-->
+        <StackPanel Grid.Row="0" Orientation="Vertical">
+            <StackPanel Orientation="Horizontal">
+                <Button Name="StartSumButton" Content="Start +app" Margin="12" Click="StartSumButton_Click"/>
+                <Button Name="StopSumButton" Content="Stop +app" Click="StopSumButton_Click"/>
+            </StackPanel>
+            <StackPanel Orientation="Horizontal">
+                <Button Name="StartMulButton" Content="Start *app" Margin="12" Click="StartMulButton_Click"/>
+                <Button Name="StopMulButton" Content="Stop *app" Click="StopMulButton_Click"/>
+            </StackPanel>
+        </StackPanel>
+        
+        <!-- Numbers -->
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="12">
+            <TextBox Name="Number1Field"  Header="Number1" Margin="12"/>
+            <TextBox Name="Number2Field"  Header="Number2" Margin="12"/>
+        </StackPanel>
+        
+        <!-- Buttons-->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" Margin="12">
+            <Button Name="SumButton" Content="Sum"  Click="SumButton_Click"/>
+            <Button Name="MulButton" Content="Multiply"   Click="MulButton_Click" Margin="12"/>
+        </StackPanel>
+        
+        <!-- result -->
+        <TextBox  Grid.Row="3" Name="ResultField" Header="Result" Margin="12" Width="auto" HorizontalAlignment="Left"/>
+
+    </Grid>
+</Page>
