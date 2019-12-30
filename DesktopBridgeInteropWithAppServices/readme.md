@@ -1,6 +1,6 @@
 This sample shows inter process communication using App Services. 
 
-This sample is a desktop bridge app that includes the following projects:
+This sample (based on https://github.com/microsoft/DesktopBridgeToUWP-Samples/tree/master/Samples/AppServiceBridgeSample) is a desktop bridge app that includes the following projects:
 * UWPApp -> this is the main UWP app. it exposes two app services : SumAppService, MulAppService
 * Launcher -> full trust process launched from the UWP app. 
 * SumApp -> C# console app. it receives two integers from UWPApp through SumAppService connection, performs the addition and returns the result through the app service connection
